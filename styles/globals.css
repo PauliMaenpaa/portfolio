@@ -3,6 +3,32 @@
   --color-accent-1: #444444;
   --color-accent-2: #888888;
   --color-text-on-dark: #e0e0e0;
-  --color-border: #e0e0e0;
+  --color-border: #444444;
   --font-family-base: "Roboto", sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--color-bg);
+  /* margin: 0;
+  padding: 0; */
+}
+
+p,
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-base);
+  color: var(--color-text-on-dark);
+}
+
+p {
+  font-size: 16px;
 }
