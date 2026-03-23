@@ -10,7 +10,7 @@
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 25px 50px;
   box-sizing: border-box;
 }
 
@@ -27,8 +27,33 @@ h2,
 h3 {
   font-family: var(--font-family-base);
   color: var(--color-text-on-dark);
+  margin: 0;
+  padding: 0;
 }
 
 p {
   font-size: 16px;
+  line-height: 1.8;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
+}
+
+.light {
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 400;
 }
