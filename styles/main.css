@@ -9,7 +9,7 @@ main {
 .hero-section-left {
   display: flex;
   justify-content: center;
-  flex: 1;
+  flex: 2;
 }
 
 .hero-section-right {
